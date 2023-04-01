@@ -46,8 +46,6 @@ while true
       puts "one second.."
       File.write('main.rb', code)
       puts "Update.."
-      system("RD /s/q #{rpk_lastver}")
-      puts "Deleted directory.."
-      puts "Update a succesfully!"
+      puts "Update a succesfully!\nUnpack the rpk_lastver folder and delete the main.rb file from the root folder of the project, then transfer all the contents from rpk_lastver to the root folder of the project. Enjoy the new version!"
     end
   end
