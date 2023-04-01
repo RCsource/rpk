@@ -41,10 +41,6 @@ while true
       system ('MD rpk_lastver')
       puts "Create new direcory.."
       system ('git clone ' + uufc + ' ' + 'rpk_lastver')
-      puts "Download a new version.."
-      code = file.read('rpk_lastver/main.rb')
-      puts "one second.."
-      File.write('main.rb', code)
       puts "Update.."
       puts "Update a succesfully!\nUnpack the rpk_lastver folder and delete the main.rb file from the root folder of the project, then transfer all the contents from rpk_lastver to the root folder of the project. Enjoy the new version!"
     end
