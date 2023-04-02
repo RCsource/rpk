@@ -1,4 +1,4 @@
-path1 = 'c:/Logs/Raccoon/libs/'
+path1 = 'c:/Raccoon/libs/'
 url1 = '0'
 ufc = 'https://github.com/RCsource/raccoon_pkexamples'
 uufc = 'https://github.com/RCsource/rpk'
