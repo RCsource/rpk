@@ -1,2 +1,4 @@
 # rpk
-Raccoon packages tool
+> Raccoon packages tool!
+## Soon
+Development will begin soon.
